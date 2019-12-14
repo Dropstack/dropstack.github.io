@@ -1,0 +1,30 @@
+html {
+		padding:0px;
+		margin:0px;
+		background-color:#3A506B;
+	}
+
+	body {
+		text-align:center;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+
+	body:before {
+		content:"";
+		display:inline-block;
+		height:100%;
+		vertical-align:middle;
+		margin-left:-4px;
+	}
+
+	.container {
+		position:relative;
+		margin:0 auto;
+		text-align:center;
+		display:inline-block;
+		vertical-align:middle;
+	}
